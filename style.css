@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #939393;
+  font-family: 'Roboto', sans-serif;
+}
+#body {
+  margin: auto;
+  width: 1366px;
+  height: 3090px;
+  background-color: #fefefe;
+  overflow: hidden;
+}
+header {
+  height: 640px;
+}
+#navigation {
+  position: relative;
+  list-style: none;
+  margin-left: 313px;
+  letter-spacing: 0.01em;
+  z-index: 3;
+}
+.nav_elements {
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 20px;
+  width: 100px;
+  height: 115px;
+  text-align: center;
+  line-height: 115px;
+}
+#cher {
+  width: 220px;
+  position: relative;
+  top: 3px;
+}
+a {
+  font-size: 14px;
+  color: rgb(33, 33, 33);
+  line-height: 1.2;
+  text-decoration: none;
+}
+#awesome {
+  position: relative;
+  z-index: 2;
+  top: -398px;
+  left: 448px;
+}
+#headimg {
+  position: relative;
+  z-index: 1;
+}
+#fdeveloper {
+  width: 400px;
+  font-family: 'Roboto Black','Roboto',sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  position: relative;
+  z-index: 4;
+  top: -423.9px;
+  left: 501.6px;
+}
+#learn,
+#touch {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  float: left;
+  width: 220px;
+  height: 50px;
+  background-color: white;
+  margin-left: 20px;
+  position: relative;
+  z-index: 5;
+  line-height: 50px;
+  text-align: center;
+}
+#headbuttons {
+    position: relative;
+    top: -370.2px;
+    left: 432px;
+}
+#passion {
+  text-align: center;
+  position: relative;
+  top: 80.5px;
+  margin-left: 333px;
+  margin-right: 333px;
+}
+h2 {
+  font-family: 'Roboto Black','Roboto',sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+  margin-bottom: 39px;
+}
+#aboutme1 {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  padding-left: 5px;
+  padding-right: 7px;
+}
