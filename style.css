@@ -10,7 +10,7 @@ body {
   margin: auto;
   width: 1366px;
   height: 3090px;
-  background-color: #fefefe;
+  background-color: #ffffff;
   overflow: hidden;
 }
 header {
@@ -95,11 +95,18 @@ h2 {
   font-size: 36px;
   letter-spacing: 0.05em;
   font-weight: normal;
-  margin-bottom: 39px;
+  margin-bottom: 32.4px;
+  line-height: 34.5px;
 }
 #aboutme1 {
   font-size: 14px;
   letter-spacing: 0.01em;
   padding-left: 5px;
   padding-right: 7px;
+  line-height: 20px;
+}
+#selfie {
+  position: relative;
+  top: 57.6px;
+  text-align: center;
 }
