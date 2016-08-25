@@ -64,8 +64,8 @@ a {
   top: -423.9px;
   left: 501.6px;
 }
-#learn,
-#touch {
+#learn
+ {
   font-size: 14px;
   letter-spacing: 0.01em;
   float: left;
@@ -77,6 +77,28 @@ a {
   z-index: 5;
   line-height: 50px;
   text-align: center;
+}
+#learn:hover {
+  background-color: #e1e1e1;
+}
+#touch{
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  float: left;
+  width: 220px;
+  height: 50px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 5;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  margin-left: 20px;
+}
+#touch:hover {
+  background-color: white;
+  color: black;
 }
 #headbuttons {
     position: relative;
@@ -109,4 +131,28 @@ h2 {
   position: relative;
   top: 57.6px;
   text-align: center;
+  z-index: 2;
+}
+#more_about {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  width: 220px;
+  height: 50px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 5;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  left: 573px;
+  top: -71.5px;
+  border: 2px solid white;
+  color: white;
+}
+#more_about:hover {
+  background-color: white;
+  color: black;
+}
+#resume {
+  background-color: #ededed;
 }
