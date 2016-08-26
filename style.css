@@ -144,20 +144,21 @@ h2 {
   line-height: 50px;
   text-align: center;
   position: relative;
-  left: 573px;
+  left: 393px;
   top: -71.5px;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #777777;
+  color: #777777;
 }
 #more_about:hover {
-  background-color: white;
-  color: black;
+  background-color: #212121;
+  color: white;
+  border: none;
 }
 #resume {
   padding-top: 120px;
   background-color: #ededed;
   position: relative;
-  top: -36.5px;
+  top: -63.5px;
   height: 486px;
 }
 table{
@@ -211,21 +212,21 @@ h5 {
   position: relative;
   float: right;
   right: 548px;
-  top: 43px;
+  top: 16px;
 }
 #proj1 {
   position: relative;
-  top: 100px;
+  top: 73px;
   left: 213px;
 }
 #proj2 {
   position: relative;
-  top: 100px;
+  top: 73px;
   left: 230px;
 }
 #proj3 {
   position: relative;
-  top: 100px;
+  top: 73px;
   left: 246px;
 }
 #projbutton {
@@ -241,10 +242,115 @@ h5 {
   color: #777777;
   margin: 0px;
   left: 573px;
-  top: 135px;
+  top: 108px;
 }
 #projbutton:hover {
   background-color: #212121;
   color: white;
   border: none;
+}
+form {
+  position: relative;
+  background-color: #ededed;
+  padding-top: 68.5px;
+  top: 188px;
+  height: 512px;
+}
+#h_form {
+  margin: 0px;
+  text-align: center;
+}
+#h_form_2 {
+  margin: 0px;
+  width: 395px;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 490px;
+  font-family: 'Roboto', sans-serif;
+}
+#contacts {
+  margin-top: 47px;
+}
+h4 {
+  margin-bottom: 30px; 2661 2621
+}
+#message_form {
+  position: relative;
+  left:693px;
+  top: -222.5px;
+}
+input, textarea {
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 35px;
+  width: 340px;
+  border: none;
+  border-bottom: 2px solid #777777;
+  background-color: #ededed;
+}
+textarea {
+  height: 75px;
+  resize: none;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0px;
+}
+input, textarea:focus {
+  outline: none;
+}
+#submit {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  width: 140px;
+  height: 50px;
+  box-sizing: border-box;
+  position: relative;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid #777777;
+  color: #777777;
+  left: -344px;
+  top: 70px;
+}
+#submit:hover {
+  cursor: pointer;
+  background-color: #212121;
+  color: white;
+  border: none;
+}
+footer {
+  position: relative;
+  height: 115px;
+  background-color: #212121;
+  bottom: -188px;
+  line-height: 115px;
+}
+#footinfo {
+  color: white;
+  margin-left: 213px;
+}
+#notonly {
+  position: relative;;
+  z-index: 111;
+  margin: 0px;
+  padding: 0px;
+  left: 370.6px;
+  top: -170px;
+  letter-spacing: 0.02em;
+}
+#google {
+  position: relative;
+  left: 618px;
+}
+#twitter {
+  position: relative;
+  left: 522px;
+}
+#facebook {
+  position: relative;
+  left:437px;
+  top: 1px;
+}
+#vk {
+  position: relative;
+  left: 349px;
 }
