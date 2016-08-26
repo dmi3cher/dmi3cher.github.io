@@ -154,5 +154,55 @@ h2 {
   color: black;
 }
 #resume {
+  padding-top: 120px;
   background-color: #ededed;
+  position: relative;
+  top: -36.5px;
+  height: 486px;
+}
+table{
+  position: relative;
+  float: left;
+}
+h3 {
+  font-family: 'Roboto Black','Roboto',sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  margin-left: 215px;
+  margin-bottom: 30px;
+  line-height: 27.5px;
+}
+h4 {
+  font-family: 'Roboto Black','Roboto',sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  margin-left: 215px;
+  margin-bottom: 20px;
+}
+h5 {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  margin-left: 215px;
+}
+.text1 {
+  width: 218px;
+  color: #777777;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  margin-left: 215px;
+  margin-bottom: 30px;
+}
+#second_h3 {
+  position: relative;
+}
+#education {
+  position: relative;
+  float: left;
+  top: -58px; 1381 1455
+}
+#third_h3 {
+  margin-top: 70px;
+}
+.h5_2 {
+  margin-bottom: 23px;
 }
