@@ -355,9 +355,6 @@ footer {
   position: relative;
   left: 349px;
 }
-#google,
-#twitter,
-#facebook,
-#vk:hover {
-
+#body {
+  font-weight: normal;
 }
