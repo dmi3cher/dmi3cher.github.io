@@ -98,7 +98,7 @@ a {
 }
 #touch:hover {
   background-color: white;
-  color: black;
+  color: #212121;
 }
 #headbuttons {
     position: relative;
@@ -199,7 +199,7 @@ h5 {
 #education {
   position: relative;
   float: left;
-  top: -58px; 1381 1455
+  top: -58px;
 }
 #third_h3 {
   margin-top: 70px;
@@ -353,4 +353,10 @@ footer {
 #vk {
   position: relative;
   left: 349px;
+}
+#google,
+#twitter,
+#facebook,
+#vk:hover {
+
 }
