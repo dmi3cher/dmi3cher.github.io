@@ -33,7 +33,7 @@ header {
   text-align: center;
   line-height: 115px;
 }
-.nav_elements:hover {
+.nav_elements>a:hover {
   text-decoration: underline;
 }
 #cher {
@@ -81,9 +81,12 @@ a {
   z-index: 5;
   line-height: 50px;
   text-align: center;
+  box-sizing: border-box;
+  border: 2px solid white;
 }
 #learn:hover {
   background-color: #e1e1e1;
+  border: 2px solid #e1e1e1;
 }
 #touch{
   font-size: 14px;
@@ -113,8 +116,8 @@ a {
   text-align: center;
   position: relative;
   top: 80.5px;
-  margin-left: 333px;
-  margin-right: 333px;
+  margin-left: 270px;
+  margin-right: 270px;
 }
 h2 {
   font-family: 'Roboto Black','Roboto',sans-serif;
@@ -125,6 +128,7 @@ h2 {
   line-height: 34.5px;
 }
 #aboutme1 {
+  text-align: center;
   font-size: 14px;
   letter-spacing: 0.01em;
   padding-left: 5px;
@@ -156,7 +160,7 @@ h2 {
 #more_about:hover {
   background-color: #212121;
   color: white;
-  border: none;
+  border: 2px solid white;
 }
 #resume {
   padding-top: 120px;
@@ -174,7 +178,7 @@ h3 {
   font-size: 36px;
   letter-spacing: 0.05em;
   margin-left: 215px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   line-height: 27.5px;
 }
 h4 {
@@ -199,17 +203,18 @@ h5 {
 }
 #second_h3 {
   position: relative;
+  margin-bottom: 35px;
 }
 #education {
   position: relative;
   float: left;
-  top: -58px;
+  top: -66px;
 }
 #third_h3 {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .h5_2 {
-  margin-bottom: 23px;
+  margin-bottom: 20px;
 }
 #h3_proj {
   margin: 0px;
@@ -219,19 +224,31 @@ h5 {
   top: 16px;
 }
 #proj1 {
+  width: 300px;
+  height: 340px;
+  background: url('image/proj1.png');
   position: relative;
   top: 73px;
   left: 213px;
+  float: left;
 }
 #proj2 {
+  width: 300px;
+  height: 340px;
+  background: url('image/proj2.png');
   position: relative;
   top: 73px;
   left: 230px;
+  float: left;
 }
 #proj3 {
+  width: 300px;
+  height: 340px;
+  background: url('image/proj3.png');
   position: relative;
   top: 73px;
   left: 246px;
+
 }
 #projbutton {
   font-size: 14px;
@@ -251,7 +268,7 @@ h5 {
 #projbutton:hover {
   background-color: #212121;
   color: white;
-  border: none;
+  border: 2px solid #212121;
 }
 form {
   position: relative;
@@ -276,7 +293,7 @@ form {
   margin-top: 47px;
 }
 h4 {
-  margin-bottom: 30px; 2661 2621
+  margin-bottom: 30px;
 }
 #message_form {
   position: relative;
@@ -319,7 +336,7 @@ input, textarea:focus {
   cursor: pointer;
   background-color: #212121;
   color: white;
-  border: none;
+  border: 2px solid #212121;
 }
 footer {
   position: relative;
@@ -360,4 +377,19 @@ footer {
 }
 h1,h2,h3,h4,h5,h6 {
   font-weight: normal;
+}
+.fix {
+  margin-bottom: 12px;
+}
+#proj1,#proj2,#proj3 {
+  opacity: 0.8;
+}
+#proj3:hover {
+  opacity: 1;
+}
+#proj2:hover {
+  opacity: 1;
+}
+#proj1:hover {
+  opacity: 1;
 }
